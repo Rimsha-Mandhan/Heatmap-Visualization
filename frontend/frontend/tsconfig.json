@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    
+    
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types" // Add this if your custom types are in src/types
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "leaflet.heat": ["./src/types/leaflet-heat.d.ts"]},
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext",
+      
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src/**/*",
+    "src/leaflet-heat.d.ts"
+  ]
+}

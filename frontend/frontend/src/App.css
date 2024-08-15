@@ -1,0 +1,52 @@
+/* src/App.css */
+.map-container {
+  position: relative;
+  width: 1000px;  
+  height: 600px;  
+  margin: 0 auto; 
+  margin-top: 100px; }
+
+.search-bar {
+  position: absolute;
+  top: -80px; 
+  left: 50%;
+  transform: translateX(-50%); 
+  z-index: 1000; 
+  width: 60%; 
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 40px 10px 20px; 
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px; 
+  color: #333; 
+  font-style: italic; 
+}
+
+.search-input::placeholder {
+  color: #aaa; 
+}
+
+.search-button {
+  position: absolute;
+  right: 20px; 
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: hsl(255, 255%, 255%); 
+  color: white; 
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px; 
+  border-radius: 40%; 
+}
+
+.search-button:hover {
+  background-color: hsl(255, 255%, 255%); /* Slightly darker green on hover */
+  color: white; /* Maintain white color on hover */
+}
