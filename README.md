@@ -5,11 +5,11 @@ This project integrates a data source to create a web-based heatmap visualizatio
 
 ## Technologies
 - Frontend: React, Leaflet
-- Backend: Node.js, Express (if applicable)
-- Deployment: [Your deployment platform]
+- Backend: Node.js, Express 
+  
 
 ## Installation
 ```bash
-git clone https://github.com/your-username/heatmap-visualization.git
+git clone https://github.com/Rimsha-Mandhan/heatmap-visualization.git
 cd heatmap-visualization
 npm install
